@@ -1,3 +1,6 @@
+export const dynamicParams = true;
+
+
 import Link from "next/link";
 import clientPromise from "../lib/mongodb";
 import { notFound } from "next/navigation";
